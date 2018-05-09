@@ -9,7 +9,7 @@ export class QuotesService {
   }
 
   removeQuoteFromFavorites(quote: Quote) {
-    const position = this.favoriteQuotes.findIndex((quoteEL: Quote) => {
+    const position = this.favoriteQuotes.findIndex((quoteEl: Quote) => {
       return quoteEl.id == quote.id;
     });
     this.favoriteQuotes.splice(position, 1);
