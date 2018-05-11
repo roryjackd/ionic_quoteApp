@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 import { ModalController } from 'ionic-angular';
 
-import { Quote } from "../../services/quotes";
+import { Quote } from "../../data/quote.interface";
 import { QuotesService } from "../../services/quotes";
 import { QuotePage } from "../quote/quote";
 
